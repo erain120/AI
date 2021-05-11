@@ -76,7 +76,6 @@ criterion = nn.CrossEntropyLoss().to(device)
 
 
 
-
 #checkpoint = torch.load("C:/Users/User/AI/ch/q1")
 #net.load_state_dict(checkpoint["hyeon_model_best.pth"])
 
