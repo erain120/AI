@@ -94,7 +94,6 @@ model.load_state_dict(checkpoint['state_dict'])
 
 eval(model,test_loader,device)
 
-
 #
 # model_load_path = "./weights/SimpleCNN/best_model.pt"
 # model = SimpleCNN().to(device)
